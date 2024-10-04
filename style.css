@@ -1,32 +1,35 @@
 nav {
-    background: rgb(9, 97, 94);
+    background: rgb(66, 148, 186);
     margin: 0 auto;
     display: flex;
-    padding: 10px;
+    padding: 15px;
 }
 
  /* portfolio styles */
  .content h1 {
-    color: black;
+    color: rgb(46, 20, 117);
 }
 
 #portfolio {
-    list-style-type: none;
+    list-style-type: lower-roman; 
     padding-left: 0;
 }
 
 #portfolio li {
-    background: #f61313;
+    background: #2f4272;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 #portfolio li:hover {
-    background: #eee;
+    background: #393c8e;
 }
 
 #portfolio a {
-    text-decoration: none;
-    color: #454545;
+    text-decoration: rgb(255, 255, 255);
+    color: #ffffff;
 }
+  .content {
+    background: rgb(66, 148, 186);
+  }
