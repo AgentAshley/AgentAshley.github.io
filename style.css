@@ -1,13 +1,25 @@
 nav {
-    background: rgb(66, 148, 186);
-    margin: 0 auto;
+    background: #333;
+    padding: 10px;
     display: flex;
-    padding: 15px;
-}
+    justify-content: space-between;
+ margin-bottom: 20px;
+} body {
+    background: #2a2a2a;
+    color: greenyellow;
+  }
+  
+  nav {
+    background: #333;
+  }
+  
+  a {
+    color: greenyellow;
+  }
 
  /* portfolio styles */
  .content h1 {
-    color: rgb(46, 20, 117);
+    color: greenyellow;
 }
 
 #portfolio {
@@ -16,20 +28,20 @@ nav {
 }
 
 #portfolio li {
-    background: #2f4272;
+    background: #333;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 #portfolio li:hover {
-    background: #393c8e;
+    background: gray;
 }
 
 #portfolio a {
-    text-decoration: rgb(255, 255, 255);
-    color: #ffffff;
+    text-decoration: greenyellow;
+    color:greenyellow;
 }
   .content {
-    background: rgb(66, 148, 186);
+    background: #333;
   }
