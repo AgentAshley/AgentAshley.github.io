@@ -16,7 +16,10 @@ nav {
   a {
     color: greenyellow;
   }
-
+ h2 {
+  background-color: black;
+ }
+ 
  /* portfolio styles */
  .content h1 {
     color: greenyellow;
@@ -25,7 +28,9 @@ nav {
 #portfolio {
     list-style-type: lower-roman; 
     padding-left: 0;
-}
+
+
+  }
 
 #portfolio li {
     background: #333;
