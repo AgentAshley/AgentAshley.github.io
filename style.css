@@ -1,52 +1,139 @@
+
+
+body {
+    background: rgb(52, 50, 50);
+    color: rgb(59, 54, 54);
+    padding: 10px;
+    font-family: arial;
+}
+#all-contents {
+  max-width: 800px;
+    margin: auto;
+}
+
+/* navigation menu */
 nav {
-    background: #333;
-    padding: 10px;
+    background: rgb(33, 131, 18);
+   margin: 0 auto;
+   margin-bottom: 20px;
     display: flex;
-    justify-content: space-between;
- margin-bottom: 20px;
-} body {
-    background: #2a2a2a;
-    color: greenyellow;
-  }
-  
-  nav {
-    background: #333;
-  }
-  
-  a {
-    color: greenyellow;
-  }
- h2 {
-  background-color: black;
- }
- 
- /* portfolio styles */
- .content h1 {
-    color: greenyellow;
-}
-
-#portfolio {
-    list-style-type: lower-roman; 
-    padding-left: 0;
-
-
-  }
-
-#portfolio li {
-    background: #333;
     padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    color: rgb(3, 48, 18);
+    flex: 1;
+    margin: 0;
+}
+#nav-ul {
+    list-style-image: none;
+}
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
 }
 
-#portfolio li:hover {
-    background: gray;
+/* main container area beneath menu */
+main {
+    background: rgb(33, 104, 36);
+    display: flex;
+}
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+.sidebar-img {
+    width: 200px;
+}
+.content {
+    flex: 1;
+    padding: 15px;
 }
 
-#portfolio a {
-    text-decoration: greenyellow;
-    color:greenyellow;
+/* portfolio styles */
+#interests {
+    border: 4px rgb(114, 113, 113) ridge;
+    padding: 8px;
 }
-  .content {
-    background: #333;
-  }
+h2, h3 {
+    margin: 0px;
+}
+         /* portfolio styles */
+         .content h1 {
+            color: black;
+        }
+
+        #portfolio {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #portfolio li {
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        #portfolio li:hover {
+            background: #eee;
+        }
+
+        #portfolio a {
+            text-decoration: none;
+            color: #454545;
+        }
+         /* responsive web design */
+         @media screen and (min-width: 120px) and (max-width: 1080px) {
+            main {
+              height: 100ch;
+              zoom: 1.5;
+              display: grid;
+            }
+
+            h1 {
+              font-size: 44px;
+            }
+
+            h2 {
+              font-size: 42px;
+            }
+
+            h3 {
+              font-size: 36px;
+            }
+
+            #all-contents {
+              height: 100ch;
+              margin: none;
+            }
+
+            a {
+              font-size: 42px;
+            }
+
+            .sidebar {
+              margin-right: 0px;
+              justify-content: center;
+              align-items: center;
+            }
+
+            .sidebar-img {
+              width: 100%;
+            }
+
+            p,
+            li {
+              font-size: 24px;
+            }
+
+            .content {
+              align-content: center;
+              justify-content: center;
+            }
+        }
