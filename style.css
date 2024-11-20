@@ -14,7 +14,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(33, 131, 18);
+    background: green;
    margin: 0 auto;
    margin-bottom: 20px;
     display: flex;
@@ -41,7 +41,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(33, 104, 36);
+    background:darkgreen;
     display: flex;
 }
 .sidebar {
@@ -87,7 +87,7 @@ h2, h3 {
 
         #portfolio a {
             text-decoration: none;
-            color: darkgreen;
+            color: rgb(41, 45, 41);
         }
          /* responsive web design */
          @media screen and (min-width: 120px) and (max-width: 1080px) {
