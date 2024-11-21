@@ -11,6 +11,10 @@ body {
   max-width: 800px;
     margin: auto;
 }
+.sidebar-img {
+  height: 200px;
+  margin: 10px;
+}
 
 /* navigation menu */
 nav {
@@ -23,7 +27,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(3, 48, 18);
+    color: white;
     flex: 1;
     margin: 0;
 }
@@ -66,7 +70,7 @@ h2, h3 {
 }
          /* portfolio styles */
          .content h1 {
-            color: rgb(254, 253, 253);
+            color: white;
         }
 
         #portfolio {
