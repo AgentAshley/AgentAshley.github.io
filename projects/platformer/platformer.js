@@ -48,7 +48,7 @@ $(function () {
     createPlatform(723, 400, 90, 46); // long but wide platform located 200 pixels from the left of the screen and 100 pixels from the top of the screen
     createPlatform(950, 400, 90, 46); // long but wide platform located 200 pixels from the left of the screen and 100 pixels from the top of the screen
     createPlatform(1150, 400, 90, 46); // long but wide platform located 200 pixels from the left of the screen and 100 pixels from the top of the screen
-
+    
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
